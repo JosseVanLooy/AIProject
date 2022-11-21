@@ -15,7 +15,7 @@ def main():
         download_file(filename)
 
     # Once we have the dependencies, add a selector for the app mode on the sidebar.
-    st.sidebar.title("Navigation")
+    st.sidebar.title("Navigatie")
     app_mode = st.sidebar.selectbox("Navigate to other pages",
         ["Show instructions", "Run the app", "Show the source code"])
     if app_mode == "Show instructions":
